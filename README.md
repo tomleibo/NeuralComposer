@@ -21,7 +21,7 @@ Pre-processing stages we applied on the raw data:
  2. Converting from mp3 to wav was not in the scope of the project and we used an external library called lame. installing is as easy as: sudo apt-get install lame
  3. After converting to wav, reading it was a lot easier. We used the library scipy.io.wavfile which returns a numpy array with meta data and byte arrays
 
-## Section 4, 5 & 6  - The Code and building instructions
+## Sections 4, 5 & 6  - The Code and building instructions
 The code was generated in a python notebook which ran on an AWS machine and can be found on https://github.com/tomleibo/NeuralComposer
 
 ### Building and Running
