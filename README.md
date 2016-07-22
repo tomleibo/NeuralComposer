@@ -7,7 +7,7 @@
 ## Sections 1 & 2 - Pattern Data
  - As we first started the project we had to choose a type of pattern data. As we both love music and it's a part of our everyday life we were curious about what can deep learning do in that field. 
  - The data collection part was therefore quite easy, as we all have songs on our PCs and phones. There are many music collections in the internet but we couldn't use a big number of songs (exaplained below), so we just picked a few.
-- Challenges we faced while working with the data:
+ - Challenges we faced while working with the data:
   1. mp3 is a complex format which can not be read and converted to features easily, therefore we first converted the data into wav format.
   1. Wav format consists of chunks of data which is the frequency of the music as a time series. Another challenge was converting it into numpy arrays of floats.
   1. The input created from several songs was too big (several gigabytes) and therefore the computation never finished. We has to pick just a few songs.
