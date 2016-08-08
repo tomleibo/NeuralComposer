@@ -2,13 +2,12 @@ from __future__ import absolute_import
 from __future__ import print_function
 import numpy as np
 import os
-import nn_utils.network_utils as network_utils
-
 from keras.models import Sequential
 from keras.layers.core import TimeDistributedDense
 from keras.layers.recurrent import SimpleRNN
 import scipy.io.wavfile as wav
 from pipes import quote
+from scipy.spatial import distance
 
 # # NeuralComposer
 #
