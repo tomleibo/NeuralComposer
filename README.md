@@ -1,8 +1,8 @@
 # NeuralComposer
 
 ## Data Science Course - Final Project 
-- Manor Lahagani 201049376
-- Tom Leibovich 200456267
+- Manor Lahagani
+- Tom Leibovich
 
 ## Sections 1 & 2 - Pattern Data
  - As we first started the project we had to choose a type of pattern data. As we both love music and it's a part of our everyday life we were curious about what can deep learning do in that field. 
