@@ -163,6 +163,8 @@ for i in xrange(len(output)):
 save_generated_example(output_dir, output, sample_frequency=freq)
 print('output file saved as', output_dir)
 
+similarity=distance.cosine(model,output);
+print('similarity'+similarity);
 
 def read_wav_as_np(filename):
 	data = wav.read(filename)
