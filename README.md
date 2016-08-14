@@ -46,7 +46,7 @@ The code was generated in a python notebook which ran on an AWS machine and can 
       13. voila! your new song is generated in the directory and is called: out.wav
 
 ## Section 7 - Evalualting results
- - The cosine similarity between the input and the output is: 0.0625
+ - The cosine similarity between the input and the output is: 0.625
  
 ## Section 8 - Results & Conclusions
  - The results of the task - the generated songs, can be found on the repository
